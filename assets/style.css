@@ -1,0 +1,184 @@
+#graphs-row {
+    width: 100%; /* Establece el ancho del contenedor de gráficos al 100% */
+    margin: 0 auto;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho final */
+}
+
+.graph-col {
+    padding: 5px; /* Ajusta el espacio alrededor de cada gráfico */
+    width: 33.33%; /* Ancho para 3 columnas por fila */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho final */
+}
+
+.dash-graph .js-plotly-plot {
+    width: 100%; /* Asegúrate de que el gráfico ocupe todo el ancho del contenedor */
+    height: 100%; /* Asegúrate de que el gráfico ocupe toda la altura del contenedor */
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container, .container-fluid, .col, .row {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.custom-btn {
+    padding: 0.5rem 0.5rem; /* Ajusta el padding según sea necesario */
+    font-size: 1.2rem; /* Ajusta el tamaño de la fuente según sea necesario */
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #000823;
+}
+
+.js-plotly-plot {
+    border-radius: 15px;  /* Bordes redondeados */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.9);  /* Sombra con un poco de desenfoque */
+}
+
+.dash-container {
+    padding: 0px;
+    margin-bottom: 0px; 
+    background-color: #ffffff; /* Fondo claro para el contenedor */
+}
+
+.small-text {
+    font-size: 14px;
+}
+
+.btn-white {
+    background-color: white;
+    color: black; /* O el color que prefieras para el texto */
+}
+.custom-btn:hover {
+    background-color: #AEAEAE; /* Gris */
+    color: white; /* Cambia el color del texto a blanco para mejor contraste */
+}
+
+.bg-3F527E {
+    background-color: #3F527E !important;
+}
+
+.text-color-custom {
+    color: #ffffff !important; /* You can define text color too if you want */
+}
+
+.bg-0c1d44 {
+    background-color: #0c1d44 !important;
+}
+
+/* contenedores imagenes*/
+
+
+.dash-container {
+    background-color: transparent !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+.dash-row {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.dash-col {
+    padding: 0 !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.table-container {
+    background-color: #0c1d44 !important;
+    border-radius: 10px !important;
+    padding: 10px !important;
+    margin-bottom: 15px !important;
+    height: 40vh !important; /* Ajusta la altura según sea necesario */
+}
+
+.image-container {
+    background-color: #0c1d44 !important;
+    border-radius: 10px !important;
+    padding: 10px !important;
+    margin-bottom: 15px !important;
+    height: 40vh !important; /* Ajusta la altura según sea necesario */
+}
+
+.second-row-images-container {
+    display: flex !important;
+    justify-content: space-between !important;
+    background-color: #0c1d44 !important;
+    border-radius: 10px !important;
+    padding: 5px !important;
+    margin-bottom: 15px !important;
+}
+
+.second-row-image-item {
+    flex: 1 1 30% !important; /* Ajusta este valor para cambiar el ancho de las imágenes */
+    background-color: #0c1d44 !important;
+    border-radius: 10px !important;
+    margin: 0 3px !important; /* Ajusta el margen para el espacio entre imágenes */
+    padding: 10px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-row-image-item img {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 10px !important;
+}
+
+/* imagenes modelo nuevo */
+
+.table-container-nuevo {
+    background-color: #005184 !important;
+    border-radius: 10px !important;
+    padding: 10px !important;
+    margin-bottom: 15px !important;
+    height: 17vh !important; /* Ajusta la altura según sea necesario */
+    width: 100% !important; /* Asegura que la tabla ocupe todo el ancho del contenedor */
+}
+
+.image-container-nuevo {
+    background-color: #005184 !important;
+    border-radius: 10px !important;
+    padding: 10px !important;
+    margin-bottom: 15px !important;
+    height: 40vh !important; /* Ajusta la altura según sea necesario */
+    width: 100% !important; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+}
+
+.second-row-images-container-nuevo {
+    display: flex !important;
+    justify-content: space-between !important;
+    background-color: #005184 !important;
+    border-radius: 10px !important;
+    padding: 5px !important;
+    margin-bottom: 15px !important;
+    width: 100% !important; /* Asegura que el contenedor de la segunda fila ocupe todo el ancho */
+}
+
+.second-row-image-item-nuevo {
+    flex: 1 1 30% !important; /* Ajusta este valor para cambiar el ancho de las imágenes */
+    background-color: #005184 !important;
+    border-radius: 10px !important;
+    margin: 0 3px !important; /* Ajusta el margen para el espacio entre imágenes */
+    padding: 10px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-row-image-item-nuevo img {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 10px !important;
+}

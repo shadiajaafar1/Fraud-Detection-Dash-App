@@ -1,0 +1,2 @@
+docker build -t dash_entrega_final .
+docker run -h localhost -p 9002:9000 -d --name dash_entrega_final dash_entrega_final
