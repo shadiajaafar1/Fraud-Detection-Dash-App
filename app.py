@@ -1,6 +1,7 @@
 import dash
 from dash import html, dcc
 import dash_bootstrap_components as dbc
+import os
 
 # Seleccionar el tema deseado de Bootstrap
 app = dash.Dash(__name__, pages_folder="pages", use_pages=True, external_stylesheets=[dbc.themes.BOOTSTRAP])
@@ -35,4 +36,5 @@ app.layout = html.Div([
 ], className="container-fluid p-3")
 
 if __name__ == "__main__":
-    app.run_server(debug=True, host='0.0.0.0', port=9000)
+    port = int(os.environ.get("PORT", 9000))  # Render asignará el puerto
+    app.run_server(debug=False, host="0.0.0.0", port=port)
