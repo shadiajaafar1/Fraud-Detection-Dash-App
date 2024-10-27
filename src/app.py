@@ -36,5 +36,4 @@ app.layout = html.Div([
 ], className="container-fluid p-3")
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 9000))  # Render asignará el puerto
-    app.run_server(debug=False, host="0.0.0.0", port=port)
+    app.run_server(debug=True)
