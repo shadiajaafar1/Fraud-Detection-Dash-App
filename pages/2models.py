@@ -2,6 +2,8 @@ import dash
 from dash import html, dcc, Dash, Input, Output, callback
 from dash import dash_table
 import dash_bootstrap_components as dbc
+from dash.dash_table.Format import Group
+
 
 dash.register_page(__name__, path="/2models", name="Classifier")
 
